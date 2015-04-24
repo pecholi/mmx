@@ -45,11 +45,10 @@ public void setUp() throws Exception {
 		System.out.println("Waiting for user setup...");
 		
 		//step1
-
 	    //assert step 1
 	    AssertJUnit.assertEquals("Welcome", driver.findElement(By.cssSelector("h4")).getText());
 	    System.out.println("asserted Welcome Page");
-	   
+	   				
 	  //assert Standard install Button 
 	    try {
 	    	  WebElement e = driver.findElement(By.xpath("//*[@id='project-wizard-container']/div[2]/div[1]/div[1]/div/button[1]"));
@@ -534,8 +533,8 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     	//sender
     	driver.findElement(By.xpath(".//*[@id='admin-config-item-Email']/div/div/div[1]/div[1]/div[3]/input")).clear();
     							driver.findElement(By.xpath(".//*[@id='admin-config-item-Email']/div/div/div[1]/div[1]/div[3]/input")).sendKeys("Magnet Developer Factory <no-reply@magnet.com>");
-    //save							
-    driver.findElement(By.xpath(".//*[@id='admin-config-item-Email']//div[2]/button[1]")).click();Thread.sleep(2000);
+	    //save							
+	    driver.findElement(By.xpath(".//*[@id='admin-config-item-Email']//div[2]/button[1]")).click();Thread.sleep(2000);
     
   //scroll down
     JavascriptExecutor jse1= (JavascriptExecutor)driver;

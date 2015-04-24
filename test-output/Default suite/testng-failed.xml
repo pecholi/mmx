@@ -5,13 +5,9 @@
     <classes>
       <class name="com.magnet.mmx.selenium.WizardCustomInstall_TestNG">
         <methods>
-          <include name="testConfiguration_CommonReset"/>
-          <include name="InitialSetup"/>
-          <include name="testConfigurationReset_1"/>
-          <include name="testConfigurationReset_0"/>
           <include name="testConfigurationReset_2"/>
           <include name="setUp"/>
-          <include name="Sign_inNout"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.magnet.mmx.selenium.WizardCustomInstall_TestNG -->
     </classes>

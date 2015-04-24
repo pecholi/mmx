@@ -10,7 +10,6 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -122,7 +121,7 @@ public void setUp() throws Exception {
 //    driver.findElement(By.xpath(".//*[@id='confirm-alert']/div/div/div[3]/button[1]")).click(); //yes for null DB & Messaging Server Already Configured
     System.out.println("Going to step 5");
     
-     //sptep5
+    //sptep5
     //assert step5 : Summary
     assertTrue(isElementPresent(By.cssSelector(".step-pane.sample-pane.alert.active>h4")));
     System.out.println("asserted step 5: Summary Page");
@@ -246,8 +245,6 @@ public void setUp() throws Exception {
 	    }
   
   
-  
-  
   /*
    * sign in - go Accounts -sign out
    */
@@ -330,36 +327,28 @@ public void setUp() throws Exception {
 	 verificationErrors.append(e.toString());
 	 }
 	  System.out.println("Assert Tab Templates");
-	  //    assertEquals("Email Templates", driver.findElement(By.cssSelector("#mgmt-cms > h3")).getText());
+	//    assertEquals("Email Templates", driver.findElement(By.cssSelector("#mgmt-cms > h3")).getText());
     try {
       AssertJUnit.assertEquals("Email Templates", driver.findElement(By.xpath(".//*[@id='mgmt-cms']/h3")).getText());
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
     System.out.println("Assert Email Templates");
-    //    assertTrue(isElementPresent(By.linkText("Basic-Template")));
-    try {
-        AssertJUnit.assertEquals("Basic-Template", driver.findElement(By.xpath(".//*[@id='cms-menu']/ul/li[1]/a")).getText());
-      } catch (Error e) {
-        verificationErrors.append(e.toString());
-      }
+    
+    assertTrue(isElementPresent(By.linkText("Basic-Template")));
     System.out.println("Assert Basic-Templates");
-//    assertTrue(isElementPresent(By.linkText("Forgot-Password")));
+    
+    //    assertTrue(isElementPresent(By.linkText("Forgot-Password")));
     assertTrue(isElementPresent(By.xpath(".//*[@id='cms-menu']/ul/li[2]/a")));	
-//    try {
-//        AssertJUnit.assertEquals("Forgot-Password", driver.findElement(By.xpath(".//*[@id='cms-menu']/ul/li[2]/a")).getText());
-//      } catch (Error e) {
-//        verificationErrors.append(e.toString());
-//      }
     System.out.println("Assert Forgot-Password");
     Thread.sleep(5000);
     //    assertTrue(isElementPresent(By.linkText("Invite-Confirmation")));
-//    try {
-//        AssertJUnit.assertEquals("Invite-Confirmation", driver.findElement(By.xpath(".//*[@id='cms-menu']/ul/li[3]/a")).getText());
-//      } catch (Error e) {
-//        verificationErrors.append(e.toString());
-//      }
-//    System.out.println("Assert Invite-Confirmation");
+    try {
+        AssertJUnit.assertEquals("Invite-Confirmation", driver.findElement(By.xpath(".//*[@id='cms-menu']/ul/li[3]/a")).getText());
+      } catch (Error e) {
+        verificationErrors.append(e.toString());
+      }
+    System.out.println("Assert Invite-Confirmation");
     
     //ok buttton
     driver.findElement(By.cssSelector("#general-alert > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary")).click();
@@ -403,9 +392,7 @@ public void setUp() throws Exception {
     driver.findElement(By.id("login-btn")).click();
     Thread.sleep(2000); 
     driver.get(userUrl + "/admin/");
-    
     driver.findElement(By.linkText("Accounts")).click();
-    
     driver.findElement(By.linkText("Logs")).click();
     driver.findElement(By.linkText("Templates")).click();
     driver.findElement(By.linkText("Configuration")).click();
@@ -441,7 +428,6 @@ public void setUp() throws Exception {
             System.out.println("element is not present ");
             return false;
         }
-
         return true;
     }
 
