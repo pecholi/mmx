@@ -1,25 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41491" started-at="2015-04-24T20:48:42Z" finished-at="2015-04-24T20:49:24Z">
+  <suite name="Default suite" duration-ms="265873" started-at="2015-04-24T22:49:33Z" finished-at="2015-04-24T22:53:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41491" started-at="2015-04-24T20:48:42Z" finished-at="2015-04-24T20:49:24Z">
-      <class name="com.magnet.mmx.selenium.WizardCustomInstall_TestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardCustomInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="2464" started-at="2015-04-24T13:48:42Z" finished-at="2015-04-24T13:48:45Z">
+    <test name="Default test" duration-ms="265873" started-at="2015-04-24T22:49:33Z" finished-at="2015-04-24T22:53:59Z">
+      <class name="com.magnet.mmx.selenium.WizardStandardInstall_TestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="2558" started-at="2015-04-24T15:49:33Z" finished-at="2015-04-24T15:49:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testConfigurationReset_2()[pri:0, instance:com.magnet.mmx.selenium.WizardCustomInstall_TestNG@4563e9ab]" name="testConfigurationReset_2" duration-ms="38937" started-at="2015-04-24T13:48:45Z" finished-at="2015-04-24T13:49:24Z">
+        <test-method status="PASS" signature="test_0__StandardInstall()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="test_0__StandardInstall" duration-ms="20271" started-at="2015-04-24T15:49:36Z" finished-at="2015-04-24T15:49:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testConfigurationReset_2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardCustomInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="80" started-at="2015-04-24T13:49:24Z" finished-at="2015-04-24T13:49:24Z">
+        </test-method> <!-- test_0__StandardInstall -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="92" started-at="2015-04-24T15:49:56Z" finished-at="2015-04-24T15:49:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.magnet.mmx.selenium.WizardCustomInstall_TestNG -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="1920" started-at="2015-04-24T15:49:56Z" finished-at="2015-04-24T15:49:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_1_ConfigurationReset_Accounts()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="test_1_ConfigurationReset_Accounts" duration-ms="28812" started-at="2015-04-24T15:49:58Z" finished-at="2015-04-24T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_ConfigurationReset_Accounts -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="99" started-at="2015-04-24T15:50:27Z" finished-at="2015-04-24T15:50:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="1980" started-at="2015-04-24T15:50:27Z" finished-at="2015-04-24T15:50:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_1_ConfigurationReset_NewUserLogin()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="test_1_ConfigurationReset_NewUserLogin" duration-ms="3808" started-at="2015-04-24T15:50:29Z" finished-at="2015-04-24T15:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_1_ConfigurationReset_NewUserLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="112" started-at="2015-04-24T15:50:33Z" finished-at="2015-04-24T15:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="1940" started-at="2015-04-24T15:50:33Z" finished-at="2015-04-24T15:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_2_ConfigurationReset_Logs()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="test_2_ConfigurationReset_Logs" duration-ms="112908" started-at="2015-04-24T15:50:35Z" finished-at="2015-04-24T15:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_2_ConfigurationReset_Logs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="81" started-at="2015-04-24T15:52:28Z" finished-at="2015-04-24T15:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="1991" started-at="2015-04-24T15:52:28Z" finished-at="2015-04-24T15:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_3_ConfigurationReset_Template()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="test_3_ConfigurationReset_Template" duration-ms="34153" started-at="2015-04-24T15:52:30Z" finished-at="2015-04-24T15:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_3_ConfigurationReset_Template -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="78" started-at="2015-04-24T15:53:04Z" finished-at="2015-04-24T15:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="setUp" is-config="true" duration-ms="2003" started-at="2015-04-24T15:53:04Z" finished-at="2015-04-24T15:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test_4_ConfigurationReset_allTabs()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="test_4_ConfigurationReset_allTabs" duration-ms="52918" started-at="2015-04-24T15:53:06Z" finished-at="2015-04-24T15:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_4_ConfigurationReset_allTabs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magnet.mmx.selenium.WizardStandardInstall_TestNG@4563e9ab]" name="tearDown" is-config="true" duration-ms="136" started-at="2015-04-24T15:53:59Z" finished-at="2015-04-24T15:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.magnet.mmx.selenium.WizardStandardInstall_TestNG -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
