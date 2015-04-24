@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="Dmitrys-MacBook-Pro.local" name="com.magnet.mmx.selenium.test1" skipped="0" tests="1" time="0.0" timestamp="2015-04-20T21:26:59">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="eclipse.pdebuild.templates" value="/Users/dbikman/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.SECURITYSESSIONID" value="186a5" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.runtime.version" value="1.8.0_40-b27" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.21HufpDFN4/Render" />
+    <property name="user.name" value="dbikman" />
+    <property name="env.USER" value="dbikman" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0xCD42F69:0x0:0x0" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="selenium" />
+    <property name="env.APP_ICON_354" value="../Resources/Eclipse.icns" />
+    <property name="java.version" value="1.8.0_40" />
+    <property name="user.timezone" value="America/Los_Angeles" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../Downloads/eclipse/" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="dbikman" />
+    <property name="ant.file" value="/Users/dbikman/Documents/workspace/selenium/build.xml" />
+    <property name="os.version" value="10.10.2" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.40-b25" />
+    <property name="env.APP_ICON_36159" value="../Resources/Eclipse.icns" />
+    <property name="ant.library.dir" value="/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_36159" value="1" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/dbikman/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/scripts//" />
+    <property name="user.home" value="/Users/dbikman" />
+    <property name="target" value="1.5" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/dbikman/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="ant.file.type.selenium" value="file" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.magnet.mmx.selenium.test1 filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/dbikman/Documents/workspace/selenium/junit/TEST-com.magnet.mmx.selenium.test1.xml crashfile=/Users/dbikman/Documents/workspace/selenium/junitvmwatcher4843594177750580380.properties propsfile=/Users/dbikman/Documents/workspace/selenium/junit1761983352996013239.properties" />
+    <property name="java.class.path" value="/Users/dbikman/Documents/workspace/selenium/target/classes:/Users/dbikman/Documents/workspace/selenium/target/test-classes:/Users/dbikman/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-java/2.45.0/selenium-java-2.45.0.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.45.0/selenium-remote-driver-2.45.0.jar:/Users/dbikman/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/dbikman/.m2/repository/com/google/code/gson/gson/2.3.1/gson-2.3.1.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-api/2.45.0/selenium-api-2.45.0.jar:/Users/dbikman/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.45.0/selenium-htmlunit-driver-2.45.0.jar:/Users/dbikman/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.15/htmlunit-2.15.jar:/Users/dbikman/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/dbikman/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/dbikman/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/dbikman/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:/Users/dbikman/.m2/repository/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.jar:/Users/dbikman/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/Users/dbikman/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.15/htmlunit-core-js-2.15.jar:/Users/dbikman/.m2/repository/xerces/xercesImpl/2.11.0/xercesImpl-2.11.0.jar:/Users/dbikman/.m2/repository/xml-apis/xml-apis/1.4.01/xml-apis-1.4.01.jar:/Users/dbikman/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.21/nekohtml-1.9.21.jar:/Users/dbikman/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.14/cssparser-0.9.14.jar:/Users/dbikman/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/dbikman/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/dbikman/.m2/repository/org/eclipse/jetty/jetty-websocket/8.1.15.v20140411/jetty-websocket-8.1.15.v20140411.jar:/Users/dbikman/.m2/repository/org/eclipse/jetty/jetty-util/8.1.15.v20140411/jetty-util-8.1.15.v20140411.jar:/Users/dbikman/.m2/repository/org/eclipse/jetty/jetty-io/8.1.15.v20140411/jetty-io-8.1.15.v20140411.jar:/Users/dbikman/.m2/repository/org/eclipse/jetty/jetty-http/8.1.15.v20140411/jetty-http-8.1.15.v20140411.jar:/Users/dbikman/.m2/repository/org/apache/httpcomponents/httpclient/4.3.6/httpclient-4.3.6.jar:/Users/dbikman/.m2/repository/org/apache/httpcomponents/httpcore/4.3.3/httpcore-4.3.3.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar:/Users/dbikman/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar:/Users/dbikman/.m2/repository/org/apache/commons/commons-exec/1.1/commons-exec-1.1.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.45.0/selenium-ie-driver-2.45.0.jar:/Users/dbikman/.m2/repository/net/java/dev/jna/jna/3.4.0/jna-3.4.0.jar:/Users/dbikman/.m2/repository/net/java/dev/jna/platform/3.4.0/platform-3.4.0.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.45.0/selenium-safari-driver-2.45.0.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-support/2.45.0/selenium-support-2.45.0.jar:/Users/dbikman/.m2/repository/org/webbitserver/webbit/0.4.14/webbit-0.4.14.jar:/Users/dbikman/.m2/repository/io/netty/netty/3.5.2.Final/netty-3.5.2.Final.jar:/Users/dbikman/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.45.0/selenium-leg-rc-2.45.0.jar:/Users/dbikman/Downloads/hamcrest-core-1.3.jar:/Users/dbikman/Downloads/junit-4.12.jar:/Users/dbikman/Downloads/selenium-2.45.0/selenium-java-2.45.0-srcs.jar:/Users/dbikman/Downloads/selenium-2.45.0/selenium-java-2.45.0.jar:/Users/dbikman/Downloads/eclipse/plugins/org.junit_4.11.0.v201303080030/junit.jar:/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-launcher.jar:/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar:/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit.jar:/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.2 compiled on July 8 2013" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/dbikman" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_46093" value="1" />
+    <property name="env.ANT_HOME" value="/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502" />
+    <property name="java.io.tmpdir" value="/var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/" />
+    <property name="eclipse.pdebuild.home" value="/Users/dbikman/Downloads/eclipse/plugins/org.eclipse.pde.build_3.9.0.v20140415-2029/.//" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.WS8hO2G60b/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_354" value="1" />
+    <property name="java.ext.dirs" value="/Users/dbikman/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/dbikman/Documents/workspace/selenium" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/dbikman/Documents/workspace/selenium" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/dbikman/Downloads/eclipse/plugins/org.apache.ant_1.9.2.v201404171502/lib/ant.jar" />
+    <property name="source" value="1.5" />
+    <property name="env.JAVA_MAIN_CLASS_46093" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="test1,CopyOfTestConfigurationReset,TestConfigurationReset,build" />
+    <property name="ant.file.selenium" value="/Users/dbikman/Documents/workspace/selenium/build.xml" />
+  </properties>
+  <error message="com.magnet.mmx.selenium.test1" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: com.magnet.mmx.selenium.test1
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
