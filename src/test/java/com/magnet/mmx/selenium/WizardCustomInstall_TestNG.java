@@ -4,32 +4,30 @@ package com.magnet.mmx.selenium;
 import static org.testng.AssertJUnit.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
-
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
-import org.openqa.selenium.JavascriptExecutor;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 
 public class WizardCustomInstall_TestNG {
 //  private static float  = null;
 private WebDriver driver;
   private String userUrl;
-  private boolean acceptNextAlert = true;
+  public boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
 
   
@@ -38,19 +36,7 @@ public void setUp() throws Exception {
     driver = new FirefoxDriver();  
     userUrl ="http://localhost:3000";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-    
-    try {
-        ProcessBuilder pb = new ProcessBuilder(
-          "/selenium_TestNG/startServer.sh");
-        Process p = pb.start();     // Start the process.
-        p.waitFor();                // Wait for the process to finish.
-        System.out.println("Script executed successfully.");
-      } catch (Exception e) {
-        e.printStackTrace();
-      };
-   
-      
-      Thread.sleep(1000L);
+
   }
  
   
@@ -460,12 +446,6 @@ public void setUp() throws Exception {
     }
 
 
-private Object log() {
-	// TODO Auto-generated method stub
-	return null;
-}
-
-
 @AfterMethod
 public void tearDown() throws Exception {
     driver.quit();
@@ -484,28 +464,5 @@ public void tearDown() throws Exception {
       return false;
     }
   }
-
-  private boolean isAlertPresent() {
-    try {
-      driver.switchTo().alert();
-      return true;
-    } catch (NoAlertPresentException e) {
-      return false;
-    }
-  }
-
-  private String closeAlertAndGetItsText() {
-    try {
-      Alert alert = driver.switchTo().alert();
-      String alertText = alert.getText();
-      if (acceptNextAlert) {
-        alert.accept();
-      } else {
-        alert.dismiss();
-      }
-      return alertText;
-    } finally {
-      acceptNextAlert = true;
-    }
-  }
-  }
+}  
+  

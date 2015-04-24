@@ -1,25 +1,6 @@
 package com.magnet.mmx.selenium;
 
 
-import static org.testng.AssertJUnit.assertTrue;
-
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
-import org.testng.AssertJUnit;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.AssertJUnit;
-
-import static org.testng.AssertJUnit.assertEquals;
-
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeMethod;
-import org.testng.Assert;
-
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
@@ -28,15 +9,17 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 
 public class WizardStandardInstall_TestNG {
   private WebDriver driver;
-  private String baseUrl;
+  public String baseUrl;
   private String userUrl;
   private StringBuffer verificationErrors = new StringBuffer();
   
@@ -229,8 +212,7 @@ public void setUp() throws Exception {
    
    driver.findElement(By.id("mgmt-accounts-create-btn")).click(); Thread.sleep(2000);//Add
    
-   WebDriverWait wait = new WebDriverWait(driver, 5);
-   
+//   WebDriverWait wait = new WebDriverWait(driver, 5);
 //   wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#user-identity")));
 //   driver.findElement(By.xpath(".//*[@id='user-identity']/div[1]/span[2]")).click();Thread.sleep(2000);
 ////   driver.findElement(By.cssSelector("#user-identity")).click();
@@ -274,8 +256,6 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     System.out.println("New User Login Test passed.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
   }
   
-
-
 
   @Test
   public void test_2_ConfigurationReset_Logs() throws Exception {
@@ -574,11 +554,6 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     System.out.println("Configuration Reset Test passed. >>>>>>>>>>>>>>>>>>>>>>>>>>");
   }
   
-
-private boolean isElementPresent(By linkText) {
-	// TODO Auto-generated method stub
-	return false;
-}
 
 
 @AfterMethod
