@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+     <suite name="tests" allow-return-values="true"
+    verbose="10">
+    <test name="Wizard-Test">
+        <parameter name="testInterfaceXML" value="SearchInterface.xml"></parameter>
+        <parameter name="testSuiteXML" value="SearchTest.xml"></parameter>
+        
+       <groups>
+            <run>
+                <include name="com.magnet.mmx.selenium.*" />
+            </run>
+        </groups>
+        
+        <classes>
+            <class name="WizardCustomInstall_TestNG" />
+            <class name="WizardStandardInstall_TestNG" />
+        </classes>
+    </test>
+</suite>
