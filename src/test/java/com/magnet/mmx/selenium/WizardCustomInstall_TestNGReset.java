@@ -59,9 +59,11 @@ public class WizardCustomInstall_TestNGReset {
 			// //in windows
 			// //String command1 = "ping -n 3 " + domainName;
 	 
-		     String output = obj.executecommand1(command1);
+		     String output1 = obj.executecommand1(command1);
+		     String output2 = obj.executecommand2(command2);
 	 
-	 	     System.out.println(output);
+	 	     System.out.println(output1);
+	 	     System.out.println(output2);
 	 
 		}
 	 
@@ -72,6 +74,30 @@ public class WizardCustomInstall_TestNGReset {
 			Process p;
 			try {
 				p = Runtime.getRuntime().exec(command1);
+				p.waitFor();
+				BufferedReader reader = 
+	                            new BufferedReader(new InputStreamReader(p.getInputStream()));
+	 
+	                        String line = "";			
+				while ((line = reader.readLine())!= null) {
+					output.append(line + "\n");
+				}
+	 
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+	 
+			return output.toString();
+	 
+		}
+		
+		private String executecommand2(String command2) {
+			 
+			StringBuffer output = new StringBuffer();
+	 
+			Process p;
+			try {
+				p = Runtime.getRuntime().exec(command2);
 				p.waitFor();
 				BufferedReader reader = 
 	                            new BufferedReader(new InputStreamReader(p.getInputStream()));
