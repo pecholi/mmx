@@ -42,7 +42,7 @@ public void setUp() throws Exception {
   /*
    * initial Wizard Setup - sign out
    */
-  @Test
+  @Test 
   public void InitialSetup() throws Exception {
 	  driver.get("http://localhost:3000/wizard");
 	  Thread.sleep(2000);
@@ -431,6 +431,7 @@ public void setUp() throws Exception {
         return true;
     }
 
+   
 
 @AfterMethod
 public void tearDown() throws Exception {
@@ -450,5 +451,5 @@ public void tearDown() throws Exception {
       return false;
     }
   }
-}  
+}
   
