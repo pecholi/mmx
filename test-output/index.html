@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+              <span class="suite-name border-failed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,7 +90,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">8 methods, 3 failed,  1 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG" hash-for-method="Sign_inNout">Sign_inNout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer" hash-for-method="startServer">startServer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG" hash-for-method="testConfigurationReset_1">testConfigurationReset_1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods skipped suite-Default_suite"> (hide)</a> <!-- hide-methods skipped suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods skipped suite-Default_suite"> (show)</a> <!-- show-methods skipped suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Default_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG" hash-for-method="testConfiguration_CommonReset">testConfiguration_CommonReset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Default_suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,32 +139,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardStandardInstall_TestNG" hash-for-method="test_0__StandardInstall">test_0__StandardInstall</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG" hash-for-method="InitialSetup">InitialSetup</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardStandardInstall_TestNG" hash-for-method="test_1_ConfigurationReset_Accounts">test_1_ConfigurationReset_Accounts</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer" hash-for-method="stopServer">stopServer</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardStandardInstall_TestNG" hash-for-method="test_1_ConfigurationReset_NewUserLogin">test_1_ConfigurationReset_NewUserLogin</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG" hash-for-method="testConfigurationReset_0">testConfigurationReset_0</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardStandardInstall_TestNG" hash-for-method="test_2_ConfigurationReset_Logs">test_2_ConfigurationReset_Logs</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardStandardInstall_TestNG" hash-for-method="test_3_ConfigurationReset_Template">test_3_ConfigurationReset_Template</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardStandardInstall_TestNG" hash-for-method="test_4_ConfigurationReset_allTabs">test_4_ConfigurationReset_allTabs</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.magnet.mmx.selenium.WizardCustomInstall_TestNG" hash-for-method="testConfigurationReset_2">testConfigurationReset_2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -141,52 +169,228 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+          <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.magnet.mmx.selenium.WizardStandardInstall_TestNG</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_0__StandardInstall">
-                  </a> <!-- test_0__StandardInstall -->
-                  <span class="method-name">test_0__StandardInstall</span>
+                  <a name="startServer">
+                  </a> <!-- startServer -->
+                  <span class="method-name">startServer</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Can&apos;t invoke public void com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer.startServer(): either make it static or add a no-args constructor to your class
+	at org.testng.internal.Utils.checkInstanceOrStatic(Utils.java:795)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:40)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Sign_inNout">
+                  </a> <!-- Sign_inNout -->
+                  <span class="method-name">Sign_inNout</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Profile&quot;}
+Command duration or timeout: 30.11 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Dmitrys-MacBook-Pro.local&apos;, ip: &apos;10.0.0.28&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 912461f5-61b5-5047-8d49-68639b4500d9
+*** Element info: {Using=link text, value=Profile}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:401)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.magnet.mmx.selenium.WizardCustomInstall_TestNG.Sign_inNout(WizardCustomInstall_TestNG.java:231)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Profile&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Dmitrys-MacBook-Pro.local&apos;, ip: &apos;10.0.0.28&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/anonymous8364454331647901145webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/anonymous8364454331647901145webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_1_ConfigurationReset_Accounts">
-                  </a> <!-- test_1_ConfigurationReset_Accounts -->
-                  <span class="method-name">test_1_ConfigurationReset_Accounts</span>
+                  <a name="testConfigurationReset_1">
+                  </a> <!-- testConfigurationReset_1 -->
+                  <span class="method-name">testConfigurationReset_1</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.06 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Dmitrys-MacBook-Pro.local&apos;, ip: &apos;10.0.0.28&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=37.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: e39d0a7f-677a-244b-86d0-76aa68285804
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:113)
+	at com.magnet.mmx.selenium.WizardCustomInstall_TestNG.testConfigurationReset_1(WizardCustomInstall_TestNG.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.45.0&apos;, revision: &apos;32a636c&apos;, time: &apos;2015-03-05 22:01:35&apos;
+System info: host: &apos;Dmitrys-MacBook-Pro.local&apos;, ip: &apos;10.0.0.28&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.2&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/anonymous7279853789519585390webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/anonymous7279853789519585390webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/anonymous7279853789519585390webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/anonymous7279853789519585390webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testConfiguration_CommonReset">
+                  </a> <!-- testConfiguration_CommonReset -->
+                  <span class="method-name">testConfiguration_CommonReset</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-skipped -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="stopServer">
+                  </a> <!-- stopServer -->
+                  <span class="method-name">stopServer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InitialSetup">
+                  </a> <!-- InitialSetup -->
+                  <span class="method-name">InitialSetup</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_1_ConfigurationReset_NewUserLogin">
-                  </a> <!-- test_1_ConfigurationReset_NewUserLogin -->
-                  <span class="method-name">test_1_ConfigurationReset_NewUserLogin</span>
+                  <a name="testConfigurationReset_0">
+                  </a> <!-- testConfigurationReset_0 -->
+                  <span class="method-name">testConfigurationReset_0</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="test_2_ConfigurationReset_Logs">
-                  </a> <!-- test_2_ConfigurationReset_Logs -->
-                  <span class="method-name">test_2_ConfigurationReset_Logs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_3_ConfigurationReset_Template">
-                  </a> <!-- test_3_ConfigurationReset_Template -->
-                  <span class="method-name">test_3_ConfigurationReset_Template</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_4_ConfigurationReset_allTabs">
-                  </a> <!-- test_4_ConfigurationReset_allTabs -->
-                  <span class="method-name">test_4_ConfigurationReset_allTabs</span>
+                  <a name="testConfigurationReset_2">
+                  </a> <!-- testConfigurationReset_2 -->
+                  <span class="method-name">testConfigurationReset_2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -194,7 +398,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/testng-eclipse-896168344/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/jl/_2ytcl_54r5273xqx428x6zw6d8bv9/T/testng-eclipse-1553030279/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -203,7 +407,7 @@
 &lt;suite name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.magnet.mmx.selenium.WizardStandardInstall_TestNG&quot;/&gt;
+      &lt;class name=&quot;com.magnet.mmx.selenium.WizardCustomInstall_TestNG&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -243,36 +447,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_2_ConfigurationReset_Logs')
-data.setCell(0, 2, 'com.magnet.mmx.selenium.WizardStandardInstall_TestNG')
-data.setCell(0, 3, 112908);
+data.setCell(0, 1, 'Sign_inNout')
+data.setCell(0, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG')
+data.setCell(0, 3, 76268);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_4_ConfigurationReset_allTabs')
-data.setCell(1, 2, 'com.magnet.mmx.selenium.WizardStandardInstall_TestNG')
-data.setCell(1, 3, 52918);
+data.setCell(1, 1, 'InitialSetup')
+data.setCell(1, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG')
+data.setCell(1, 3, 57360);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_3_ConfigurationReset_Template')
-data.setCell(2, 2, 'com.magnet.mmx.selenium.WizardStandardInstall_TestNG')
-data.setCell(2, 3, 34153);
+data.setCell(2, 1, 'testConfigurationReset_2')
+data.setCell(2, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG')
+data.setCell(2, 3, 39292);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_1_ConfigurationReset_Accounts')
-data.setCell(3, 2, 'com.magnet.mmx.selenium.WizardStandardInstall_TestNG')
-data.setCell(3, 3, 28812);
+data.setCell(3, 1, 'testConfigurationReset_1')
+data.setCell(3, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG')
+data.setCell(3, 3, 30763);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_0__StandardInstall')
-data.setCell(4, 2, 'com.magnet.mmx.selenium.WizardStandardInstall_TestNG')
-data.setCell(4, 3, 20271);
+data.setCell(4, 1, 'testConfigurationReset_0')
+data.setCell(4, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG')
+data.setCell(4, 3, 12444);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'test_1_ConfigurationReset_NewUserLogin')
-data.setCell(5, 2, 'com.magnet.mmx.selenium.WizardStandardInstall_TestNG')
-data.setCell(5, 3, 3808);
+data.setCell(5, 1, 'stopServer')
+data.setCell(5, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'startServer')
+data.setCell(6, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testConfiguration_CommonReset')
+data.setCell(7, 2, 'com.magnet.mmx.selenium.WizardCustomInstall_TestNG')
+data.setCell(7, 3, 0);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -298,79 +510,93 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.magnet.mmx.selenium.WizardStandardInstall_TestNG</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_0__StandardInstall</span>
-                <span class="method-start">2558 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testConfigurationReset_1</span>
+                <span class="method-start">2487 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22829 ms</span>
+                <span class="method-start">33254 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">22921 ms</span>
+                <span class="method-start">33355 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_1_ConfigurationReset_Accounts</span>
-                <span class="method-start">24841 ms</span>
+                <span class="method-name">InitialSetup</span>
+                <span class="method-start">35148 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53654 ms</span>
+                <span class="method-start">92509 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">53754 ms</span>
+                <span class="method-start">92624 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_1_ConfigurationReset_NewUserLogin</span>
-                <span class="method-start">55734 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Sign_inNout</span>
+                <span class="method-start">94374 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">59542 ms</span>
+                <span class="method-start">170643 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">59654 ms</span>
+                <span class="method-start">170875 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_2_ConfigurationReset_Logs</span>
-                <span class="method-start">61594 ms</span>
+                <span class="method-name">testConfigurationReset_0</span>
+                <span class="method-start">172741 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">174503 ms</span>
+                <span class="method-start">185186 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">174584 ms</span>
+                <span class="method-start">185261 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_3_ConfigurationReset_Template</span>
-                <span class="method-start">176575 ms</span>
+                <span class="method-name">testConfigurationReset_2</span>
+                <span class="method-start">187008 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">210729 ms</span>
+                <span class="method-start">226300 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">210807 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test_4_ConfigurationReset_allTabs</span>
-                <span class="method-start">212810 ms</span>
+                <span class="method-name">testConfiguration_CommonReset</span>
+                <span class="method-start">226377 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">265728 ms</span>
-              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startServer</span>
+                <span class="method-start">226377 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">stopServer</span>
+                <span class="method-start">226379 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
