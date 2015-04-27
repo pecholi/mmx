@@ -553,8 +553,8 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     System.out.println("Configuration Reset Test passed. >>>>>>>>>>>>>>>>>>>>>>>>>>");
   }
   
-
-
+  
+  
 @AfterMethod
 
 public void tearDown() throws Exception {
@@ -564,6 +564,4 @@ public void tearDown() throws Exception {
       Assert.fail(verificationErrorString);
     }
   }
- 
-  
- }
+}
