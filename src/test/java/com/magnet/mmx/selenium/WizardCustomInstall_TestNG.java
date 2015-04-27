@@ -32,8 +32,8 @@ private WebDriver driver;
   
   @BeforeMethod
 public void setUp() throws Exception {
-    driver = new FirefoxDriver();  
-    userUrl ="http://localhost:3000";
+    driver = new FirefoxDriver();
+    userUrl ="http://localhost:3000/wizard";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
   }
