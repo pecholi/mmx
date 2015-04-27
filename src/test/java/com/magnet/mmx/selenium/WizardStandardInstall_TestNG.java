@@ -3,6 +3,7 @@ package com.magnet.mmx.selenium;
 
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -304,6 +305,11 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
 //    log("PASS: Element was on the page"); 
     System.out.println("Assert log sorted by Level info");
     Thread.sleep(2000);
+    String log= null;
+    Logger.getAnonymousLogger(log);
+    //enter scroll UP
+    JavascriptExecutor jse4 = (JavascriptExecutor)driver;
+    jse4.executeScript("scroll(300, 0)");
    log("Magnet Message Database Log Settings"); 
     driver.findElement(By.linkText("Magnet Message Database Log Settings")).click();
     Thread.sleep(5000);
@@ -313,17 +319,27 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     Thread.sleep(2000);
    log("maximize, log levels"); 
     driver.manage().window().maximize();
-    new Select(driver.findElement(By.name("level"))).selectByVisibleText("error");Thread.sleep(5000);
-    new Select(driver.findElement(By.name("level"))).selectByVisibleText("debug");Thread.sleep(5000);
-    new Select(driver.findElement(By.name("level"))).selectByVisibleText("verbose");Thread.sleep(5000);
-    new Select(driver.findElement(By.name("level"))).selectByVisibleText("info");Thread.sleep(5000);
-    new Select(driver.findElement(By.name("level"))).selectByVisibleText("warn");Thread.sleep(5000);
-    new Select(driver.findElement(By.name("level"))).selectByVisibleText("error");Thread.sleep(5000);
+    new Select(driver.findElement(By.name("level"))).selectByVisibleText("error");Thread.sleep(2000);
+    JavascriptExecutor jse2_1 = (JavascriptExecutor)driver;
+    jse2_1.executeScript("scroll(200, 0)"); 
+    new Select(driver.findElement(By.name("level"))).selectByVisibleText("debug");Thread.sleep(2000);
+    JavascriptExecutor jse2_2 = (JavascriptExecutor)driver;
+    jse2_2.executeScript("scroll(200, 0)"); 
+    new Select(driver.findElement(By.name("level"))).selectByVisibleText("verbose");Thread.sleep(2000);
+    JavascriptExecutor jse2_3 = (JavascriptExecutor)driver;
+    jse2_3.executeScript("scroll(200, 0)"); 
+    new Select(driver.findElement(By.name("level"))).selectByVisibleText("info");Thread.sleep(2000);
+    JavascriptExecutor jse2_4 = (JavascriptExecutor)driver;
+    jse2_4.executeScript("scroll(200, 0)"); 
+    new Select(driver.findElement(By.name("level"))).selectByVisibleText("warn");Thread.sleep(2000);
+    JavascriptExecutor jse2_5 = (JavascriptExecutor)driver;
+    jse2_5.executeScript("scroll(200, 0)"); 
+    new Select(driver.findElement(By.name("level"))).selectByVisibleText("error");Thread.sleep(2000);
     
     System.out.println("Reset button to collapse");
     driver.findElement(By.xpath("//div[@id='admin-config-item-DatabaseLog']//div[2]/button[2]")).click();
     JavascriptExecutor jse2 = (JavascriptExecutor)driver;
-    jse.executeScript("scroll(250, 0)"); //x value '250' can be altered
+    jse2.executeScript("scroll(250, 0)"); //x value '250' can be altered
     Thread.sleep(5000);
     driver.findElement(By.linkText("Magnet Message Database Log Settings")).click();
     Thread.sleep(5000);
